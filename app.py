@@ -46,7 +46,7 @@ def get_data(symbol, start, end):
 
     #load the data
     if symbol.upper() == 'AMZN':
-        df = pd.read_csv("/home/x/Desktop/myProjects/SMA/stocks/AMZN.csv")
+        df = pd.read_csv("stocks/AMZN.csv")
     elif symbol.upper() == 'SBI':
         df = pd.read_csv("/home/x/Desktop/myProjects/SMA/stocks/SBIN.NS.csv") 
     elif symbol.upper() == 'TCS':
