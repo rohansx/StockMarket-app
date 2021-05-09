@@ -48,15 +48,15 @@ def get_data(symbol, start, end):
     if symbol.upper() == 'AMZN':
         df = pd.read_csv("stocks/AMZN.csv")
     elif symbol.upper() == 'SBI':
-        df = pd.read_csv("/home/x/Desktop/myProjects/SMA/stocks/SBIN.NS.csv") 
+        df = pd.read_csv("stocks/SBIN.NS.csv") 
     elif symbol.upper() == 'TCS':
-        df = pd.read_csv("/home/x/Desktop/myProjects/SMA/stocks/TCS.NS.csv")      
+        df = pd.read_csv("stocks/TCS.NS.csv")      
     elif symbol.upper() == 'HDFC':
-        df = pd.read_csv("/home/x/Desktop/myProjects/SMA/stocks/HDFCBANK.NS.csv")
+        df = pd.read_csv("stocks/HDFCBANK.NS.csv")
     elif symbol.upper() == 'BTC':
-        df = pd.read_csv("/home/x/Desktop/myProjects/SMA/stocks/BTC-USD.csv")
+        df = pd.read_csv("stocks/BTC-USD.csv")
     elif symbol.upper() == 'DOGE':
-        df = pd.read_csv("/home/x/Desktop/myProjects/SMA/stocks/DOGE-USD.csv")
+        df = pd.read_csv("stocks/DOGE-USD.csv")
     else:
         df = pd.DataFrame(columns = ['Date','Open','High','Low','Close','Adj Close','Volume'])
 
